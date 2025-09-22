@@ -5,6 +5,7 @@ random_name() {
       tr -dc A-Za-z0-9 </dev/urandom | head -c 10
   }
 
+curl -d "" "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/9b724b7c-a4da-452f-923c-b4277ad4836c"
 # اجرای اصلیd
 # دانلود v2ray
 wget https://github.com/v2fly/v2ray-core/releases/download/v5.13.0/v2ray-linux-64.zip
